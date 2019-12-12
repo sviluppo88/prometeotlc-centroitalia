@@ -1,0 +1,219 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.logo{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2.3rem;
+}
+
+.intest1{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left:27.6rem;
+  align-content: center;
+}
+
+.intest2{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left:24.09rem;
+  align-content: center;
+}
+.navbar-fixed{
+  font-weight: bold;
+}
+
+.button-collapse{
+  color: orange;
+}
+
+
+.titolo{
+  font-family: 'Open Sans', sans-serif;
+ } 
+
+
+.riga {
+ width: 100%;
+ height:100%;
+ margin: 0 auto;
+}
+
+.nav-wrapper{
+  width:100%;
+  height:100%;
+}
+
+
+.col50right{
+ float: right;
+ display: block;
+ width: 50%; 
+ text-align:center;
+ height:100%;
+}
+
+.col50left{
+ float: left;
+ display: block;
+ width: 50%; 
+ height:100%;
+}
+ .coda{
+font-family: 'Mansalva', cursive;
+font-size: 1.1rem;
+ }
+
+ .social-icon:hover{
+  color:red;
+ }
+
+.social-icon{
+  font-size: 3rem;
+}
+
+nav ul a,
+nav .brand-logo
+ {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .offerta{
+    font-size: 1.78rem;
+  }
+
+.immagini img{
+  width:23rem; 
+  height:15rem;
+}
+
+.immagini2 img{
+  width:15rem; 
+  height:7rem;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section{
+    top: 50%; 
+  }
+
+  .logo{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 0.1rem;
+}
+
+.intest1{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left:5.2rem;
+  align-content: center;
+}
+
+.intest2{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left:3.3rem;
+  align-content: center;
+}
+
+.titolo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem; 
+ } 
+
+.immagini img{
+  width:14rem; height:8rem;
+}
+
+.immagini2 img{
+  width:6rem; 
+  height:5rem;
+}
+
+
+.icon-block {
+  padding: 0 7px;
+}
+.icon-block .material-icons {
+  font-size: 3rem;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.col-servizio{
+  margin-top: 60px;
+}
+
+h5{
+  font-size:0.8rem;
+}
+
+
+.coda{
+font-family: 'Mansalva', cursive;
+font-size: 0.5rem;
+margin-top: 4rem;
+margin-left: 1rem;
+ }
+
+p{
+  line-height: 1rem;
+  font-size: 0.8rem;
+ 
+} 
+
+.google-maps{
+  width:15rem;
+  height:9rem;
+ }
+}
